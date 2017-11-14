@@ -1,0 +1,18 @@
+{
+	"success": true,
+	"status": 200,
+	"bundle": [{
+		"coordinates": [-117.1232681274414, 32.75720977783203],
+		"id": "52b32e8548c08e231e94448d9df27174",
+		"url": "https://rets.io/api/v1/test/listings/52b32e8548c08e231e94448d9df27174"
+	}, {
+		"coordinates": [-117.207968, 32.775765],
+		"id": "c31d34762fc0b40cff77a60a1de9fd8a",
+		"url": "https://rets.io/api/v1/test/listings/c31d34762fc0b40cff77a60a1de9fd8a"
+	}, {
+		"coordinates": [-117.147982, 32.790628],
+		"id": "9222bb4411a9bae772a8185ce20e17d8",
+		"url": "https://rets.io/api/v1/test/listings/9222bb4411a9bae772a8185ce20e17d8"
+	}],
+	"total": 1000
+}

@@ -1,0 +1,33 @@
+{
+	"success": true,
+	"status": 200,
+	"bundle": {
+		"activeOffices": 1075,
+		"activeListings": 2670,
+		"activeAgents": 1370,
+		"state": "CA",
+		"fips": "",
+		"location": "San Francisco, CA",
+		"info": "",
+		"description": "<p>This is the static MLS test dataset available for developers to test API integrations.</p> ",
+		"logo": "https://cdn.rets.ly/uploads/test/logo/retsly_static.png",
+		"vendorID": "test",
+		"type": "mls",
+		"test": true,
+		"name": "Static Test Vendor",
+		"boundary": [
+			[
+				[-122.53131151199341, 37.78482544885859],
+				[-122.47843980789185, 37.814123701604466],
+				[-122.39054918289185, 37.814123701604466],
+				[-122.34111070632935, 37.71315858834301],
+				[-122.3713231086731, 37.697404298539745],
+				[-122.34042406082153, 37.6000882015635],
+				[-122.53955125808716, 37.57505900514994],
+				[-122.51345872879028, 37.6816466602918]
+			]
+		],
+		"center": [-122.43827104568481, 37.71005370074444],
+		"id": "52d9ac325bcd5a154ddb5c3d"
+	}
+}

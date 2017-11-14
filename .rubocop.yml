@@ -1,0 +1,52 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  Include:
+    - '**/*.gemspec'
+    - '**/*.podspec'
+    - '**/*.jbuilder'
+    - '**/*.rake'
+    - '**/*.opal'
+    - '**/config.ru'
+    - '**/Gemfile'
+    - '**/Rakefile'
+    - '**/Capfile'
+    - '**/Podfile'
+    - '**/Thorfile'
+    - '**/Vagrantfile'
+    - '**/Berksfile'
+    - '**/Cheffile'
+    - '**/Vagabondfile'
+  Exclude:
+    - 'lib/local_resource.rb'
+    - 'lib/generated_obfuscator.rb'
+    - 'node_modules/**/*'
+    - '**/Guardfile'
+    - 'db/**/*'
+    - 'tmp/**/*'
+    - 'vendor/**/*'
+    - 'bin/**/*'
+    - 'log/**/*'
+    - 'lib/tasks/cucumber.rake'
+    - 'config/initializers/active_admin_shared_profile_resources.rb'
+    - 'config/initializers/active_admin_shared_task_resources.rb'
+Documentation:
+  Enabled: false
+Metrics/BlockLength:
+  Max: 100
+Metrics/LineLength:
+  Max: 120
+  AllowURI: true
+  URISchemes:
+    - http
+    - https
+Metrics/MethodLength:
+  CountComments: false
+  Max: 15
+Style/RaiseArgs:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/Alias:
+  EnforcedStyle: prefer_alias_method

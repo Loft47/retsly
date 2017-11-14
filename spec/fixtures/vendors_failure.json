@@ -1,0 +1,8 @@
+{
+  "success": false,
+  "status": 400,
+  "bundle": {
+    "name": "QueryNotAllowed",
+    "message": "id is not a valid key for vendor"
+	}
+}
