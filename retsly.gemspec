@@ -28,8 +28,8 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'awrence', '~> 1.0.0'
-  spec.add_runtime_dependency 'model_attribute', '~> 3.1.0'
+  spec.add_runtime_dependency 'awrence', '~> 1.0'
+  spec.add_runtime_dependency 'model_attribute', '~> 3.1'
   spec.add_runtime_dependency 'rash', '~> 0.4.0'
   spec.add_development_dependency 'simplecov', '~> 0.14'
   spec.add_development_dependency 'coveralls', '~> 0.8.21'
@@ -38,5 +38,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec', '~> 3.7'
   spec.add_development_dependency 'rubocop', '~> 0.51.0'
   spec.add_development_dependency 'pry', '~> 0.11.3'
-  spec.add_development_dependency 'webmock', '~> 3.1.0'
+  spec.add_development_dependency 'webmock', '~> 3.1'
 end
