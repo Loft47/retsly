@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %(Retsly Library.)
   spec.description   = %(Ruby Library for Retsly API.)
-  spec.homepage      = 'http://github.com/Loft47/loft'
+  spec.homepage      = %(http://github.com/Loft47/retsly)
   spec.license       = 'MIT'
   spec.cert_chain    = ['certs/shanedavies.pem']
   spec.signing_key   = File.expand_path('~/.ssh/retsly-private_key.pem') if $PROGRAM_NAME.end_with?('gem')
